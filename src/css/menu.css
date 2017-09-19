@@ -1,0 +1,51 @@
+
+body{
+  background-color:  #cccbc8;
+}
+.visible{
+  display: block;
+}
+.no-visible{
+  display: none;
+}
+
+.menu-acordion{
+  width: 25%;
+  background: white;
+  margin: 100px auto 0 auto;
+  color: white;
+
+  box-shadow: 
+    0 5px 15px 1px rgba(0,0,0,0.6)
+    0 0 200px 1px rgba(255,255,255,0.5)
+ 
+}
+.menu-acordion ul{
+  padding: 0;
+}
+.menu-acordion li{
+  list-style-type: none;
+}
+.menu h3{
+  font-size: 20px;
+  line-height: 45px;
+  padding: 0 10px;
+  margin: 0;
+  background: black;
+  cursor: pointer;
+}
+.menu ul li a{
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 30px;
+  display: block;
+  padding: 0 15px; 
+  transition:  all 0.25s;
+}
+.menu ul li a:hover{
+  background: #737373;
+  border-left: 5px solid lightblue;
+  transition:  all 0.45s;
+  color: white;
+}
